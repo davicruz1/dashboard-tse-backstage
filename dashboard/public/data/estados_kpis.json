@@ -1,0 +1,3412 @@
+{
+  "metadata": {
+    "eleicoes": [
+      2018,
+      2022
+    ],
+    "cargo": "Presidente",
+    "populacao_fonte": "municipiospop.csv",
+    "populacao_encoding_detectado": "UTF-8-SIG",
+    "populacao_separador_detectado": ";",
+    "municipios_ibge_com_populacao": 5570,
+    "registros_agregados_tse_sem_match_ibge": {
+      "detalhe": 712,
+      "votacao_nominal": 4479
+    },
+    "localidades_sem_match_ibge_por_uf": {
+      "detalhe": [
+        {
+          "ano": 2018,
+          "uf": "RN",
+          "registros_agregados": 2,
+          "localidades": 1
+        },
+        {
+          "ano": 2018,
+          "uf": "RR",
+          "registros_agregados": 2,
+          "localidades": 1
+        },
+        {
+          "ano": 2018,
+          "uf": "ZZ",
+          "registros_agregados": 342,
+          "localidades": 171
+        },
+        {
+          "ano": 2022,
+          "uf": "RN",
+          "registros_agregados": 2,
+          "localidades": 1
+        },
+        {
+          "ano": 2022,
+          "uf": "RR",
+          "registros_agregados": 2,
+          "localidades": 1
+        },
+        {
+          "ano": 2022,
+          "uf": "ZZ",
+          "registros_agregados": 362,
+          "localidades": 181
+        }
+      ],
+      "votacao_nominal": [
+        {
+          "ano": 2018,
+          "uf": "RN",
+          "registros_agregados": 15,
+          "localidades": 1
+        },
+        {
+          "ano": 2018,
+          "uf": "RR",
+          "registros_agregados": 15,
+          "localidades": 1
+        },
+        {
+          "ano": 2018,
+          "uf": "ZZ",
+          "registros_agregados": 2070,
+          "localidades": 138
+        },
+        {
+          "ano": 2022,
+          "uf": "RN",
+          "registros_agregados": 13,
+          "localidades": 1
+        },
+        {
+          "ano": 2022,
+          "uf": "RR",
+          "registros_agregados": 13,
+          "localidades": 1
+        },
+        {
+          "ano": 2022,
+          "uf": "ZZ",
+          "registros_agregados": 2353,
+          "localidades": 181
+        }
+      ]
+    },
+    "municipios_comparaveis_swing": 5570,
+    "aliases_geograficos_aplicados": {
+      "divergencia_entre_eleicoes_com_match_ibge": 3,
+      "match_fuzzy_unico_alta_confianca": 11
+    },
+    "municipios_sem_classificacao_populacional_por_ano": {
+      "2018": 2,
+      "2022": 2
+    },
+    "politica_cruzamento_geografico": "Chave Município + UF normalizada (sem acentos, em caixa alta), com alias entre anos quando há correspondência IBGE exata e fuzzy somente quando a melhor similaridade e a margem para a segunda opção são >=0,90 e >=0,08. Registros sem população IBGE continuam nos totais eleitorais, rankings e margens, mas ficam fora dos recortes demográficos. UF ZZ corresponde a localidades no exterior e fica fora do escopo.",
+    "criterios_porte": {
+      "Micro": "<20.000 habitantes",
+      "Pequeno": "20.000 a 49.999 habitantes",
+      "Médio": "50.000 a 100.000 habitantes",
+      "Grande": ">100.000 habitantes"
+    },
+    "criterios_faixa_populacional": {
+      "<20k hab": "<20.000 habitantes",
+      "20k-100k hab": "20.000 a 100.000 habitantes",
+      ">100k hab": ">100.000 habitantes"
+    },
+    "observacao_abstencao_por_espectro": "A taxa de abstenção é do município, não de eleitores individuais. O recorte por espectro agrupa municípios pelo espectro majoritário em 2018 e não permite inferência causal individual.",
+    "observacao_transferencia": "Taxa = (votos do vencedor no 2º turno - votos do vencedor no 1º turno) / votos de candidatos fora dos dois finalistas no 1º turno. Vencedor considerado: candidato 17 em 2018 e 13 em 2022.",
+    "unidade_percentual": "Campos *_pct são percentuais; *_pp são pontos percentuais."
+  },
+  "estados": [
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "AC",
+      "regiao": "Norte",
+      "aptos": 547590,
+      "abstencoes": 148461,
+      "brancos": 6594,
+      "nulos": 10659,
+      "votos_esquerda": 86977,
+      "votos_direita": 294899,
+      "votos_terceira_via": 0,
+      "votos_validos": 381876,
+      "taxa_abstencao_pct": 27.1117,
+      "votos_vencedor": 294899,
+      "votos_segundo": 86977,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 381876,
+      "margem_pct": 54.4475,
+      "margem_media_historica_pct": 47.524,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "AL",
+      "regiao": "Nordeste",
+      "aptos": 2187735,
+      "abstencoes": 543276,
+      "brancos": 25919,
+      "nulos": 96413,
+      "votos_esquerda": 912034,
+      "votos_direita": 610093,
+      "votos_terceira_via": 0,
+      "votos_validos": 1522127,
+      "taxa_abstencao_pct": 24.8328,
+      "votos_vencedor": 912034,
+      "votos_segundo": 610093,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 17,
+      "votos_validos_total": 1522127,
+      "margem_pct": 19.8368,
+      "margem_media_historica_pct": 18.599,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "AM",
+      "regiao": "Norte",
+      "aptos": 2428821,
+      "abstencoes": 519542,
+      "brancos": 29353,
+      "nulos": 118680,
+      "votos_esquerda": 875845,
+      "votos_direita": 885401,
+      "votos_terceira_via": 0,
+      "votos_validos": 1761246,
+      "taxa_abstencao_pct": 21.3907,
+      "votos_vencedor": 885401,
+      "votos_segundo": 875845,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 1761246,
+      "margem_pct": 0.5426,
+      "margem_media_historica_pct": 1.3708,
+      "margem_inferior_3_pct": true
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "AP",
+      "regiao": "Norte",
+      "aptos": 512117,
+      "abstencoes": 117178,
+      "brancos": 6589,
+      "nulos": 19638,
+      "votos_esquerda": 183616,
+      "votos_direita": 185096,
+      "votos_terceira_via": 0,
+      "votos_validos": 368712,
+      "taxa_abstencao_pct": 22.8811,
+      "votos_vencedor": 185096,
+      "votos_segundo": 183616,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 368712,
+      "margem_pct": 0.4014,
+      "margem_media_historica_pct": 1.5618,
+      "margem_inferior_3_pct": true
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "BA",
+      "regiao": "Nordeste",
+      "aptos": 10391945,
+      "abstencoes": 2191618,
+      "brancos": 107203,
+      "nulos": 547841,
+      "votos_esquerda": 5484901,
+      "votos_direita": 2060382,
+      "votos_terceira_via": 0,
+      "votos_validos": 7545283,
+      "taxa_abstencao_pct": 21.0896,
+      "votos_vencedor": 5484901,
+      "votos_segundo": 2060382,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 17,
+      "votos_validos_total": 7545283,
+      "margem_pct": 45.3862,
+      "margem_media_historica_pct": 44.8153,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "CE",
+      "regiao": "Nordeste",
+      "aptos": 6343848,
+      "abstencoes": 1185505,
+      "brancos": 78178,
+      "nulos": 288048,
+      "votos_esquerda": 3407526,
+      "votos_direita": 1384591,
+      "votos_terceira_via": 0,
+      "votos_validos": 4792117,
+      "taxa_abstencao_pct": 18.6875,
+      "votos_vencedor": 3407526,
+      "votos_segundo": 1384591,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 17,
+      "votos_validos_total": 4792117,
+      "margem_pct": 42.2138,
+      "margem_media_historica_pct": 41.0744,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "DF",
+      "regiao": "Centro-Oeste",
+      "aptos": 2086086,
+      "abstencoes": 394690,
+      "brancos": 44657,
+      "nulos": 102988,
+      "votos_esquerda": 463340,
+      "votos_direita": 1080411,
+      "votos_terceira_via": 0,
+      "votos_validos": 1543751,
+      "taxa_abstencao_pct": 18.9201,
+      "votos_vencedor": 1080411,
+      "votos_segundo": 463340,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 1543751,
+      "margem_pct": 39.9722,
+      "margem_media_historica_pct": 28.7976,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "ES",
+      "regiao": "Sudeste",
+      "aptos": 2754749,
+      "abstencoes": 576254,
+      "brancos": 51580,
+      "nulos": 102536,
+      "votos_esquerda": 747768,
+      "votos_direita": 1276611,
+      "votos_terceira_via": 0,
+      "votos_validos": 2024379,
+      "taxa_abstencao_pct": 20.9186,
+      "votos_vencedor": 1276611,
+      "votos_segundo": 747768,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 2024379,
+      "margem_pct": 26.1237,
+      "margem_media_historica_pct": 21.106,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "GO",
+      "regiao": "Centro-Oeste",
+      "aptos": 4454429,
+      "abstencoes": 962605,
+      "brancos": 59568,
+      "nulos": 189457,
+      "votos_esquerda": 1118060,
+      "votos_direita": 2124739,
+      "votos_terceira_via": 0,
+      "votos_validos": 3242799,
+      "taxa_abstencao_pct": 21.6101,
+      "votos_vencedor": 2124739,
+      "votos_segundo": 1118060,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 3242799,
+      "margem_pct": 31.0435,
+      "margem_media_historica_pct": 24.2353,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "MA",
+      "regiao": "Nordeste",
+      "aptos": 4536973,
+      "abstencoes": 1059456,
+      "brancos": 42274,
+      "nulos": 119765,
+      "votos_esquerda": 2428913,
+      "votos_direita": 886565,
+      "votos_terceira_via": 0,
+      "votos_validos": 3315478,
+      "taxa_abstencao_pct": 23.3516,
+      "votos_vencedor": 2428913,
+      "votos_segundo": 886565,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 17,
+      "votos_validos_total": 3315478,
+      "margem_pct": 46.5196,
+      "margem_media_historica_pct": 44.3955,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "MG",
+      "regiao": "Sudeste",
+      "aptos": 15699063,
+      "abstencoes": 3631561,
+      "brancos": 309049,
+      "nulos": 1275394,
+      "votos_esquerda": 4382952,
+      "votos_direita": 6100107,
+      "votos_terceira_via": 0,
+      "votos_validos": 10483059,
+      "taxa_abstencao_pct": 23.1323,
+      "votos_vencedor": 6100107,
+      "votos_segundo": 4382952,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 10483059,
+      "margem_pct": 16.3803,
+      "margem_media_historica_pct": 8.3914,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "MS",
+      "regiao": "Centro-Oeste",
+      "aptos": 1877747,
+      "abstencoes": 427770,
+      "brancos": 27014,
+      "nulos": 85889,
+      "votos_esquerda": 465025,
+      "votos_direita": 872049,
+      "votos_terceira_via": 0,
+      "votos_validos": 1337074,
+      "taxa_abstencao_pct": 22.781,
+      "votos_vencedor": 872049,
+      "votos_segundo": 465025,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 1337074,
+      "margem_pct": 30.4414,
+      "margem_media_historica_pct": 24.715,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "MT",
+      "regiao": "Centro-Oeste",
+      "aptos": 2330011,
+      "abstencoes": 611134,
+      "brancos": 23071,
+      "nulos": 60981,
+      "votos_esquerda": 549001,
+      "votos_direita": 1085824,
+      "votos_terceira_via": 0,
+      "votos_validos": 1634825,
+      "taxa_abstencao_pct": 26.2288,
+      "votos_vencedor": 1085824,
+      "votos_segundo": 549001,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 1634825,
+      "margem_pct": 32.8367,
+      "margem_media_historica_pct": 31.501,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "PA",
+      "regiao": "Norte",
+      "aptos": 5498812,
+      "abstencoes": 1280769,
+      "brancos": 60908,
+      "nulos": 302178,
+      "votos_esquerda": 2112769,
+      "votos_direita": 1742188,
+      "votos_terceira_via": 0,
+      "votos_validos": 3854957,
+      "taxa_abstencao_pct": 23.2917,
+      "votos_vencedor": 2112769,
+      "votos_segundo": 1742188,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 17,
+      "votos_validos_total": 3854957,
+      "margem_pct": 9.6131,
+      "margem_media_historica_pct": 9.5544,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "PB",
+      "regiao": "Nordeste",
+      "aptos": 2868023,
+      "abstencoes": 460754,
+      "brancos": 36933,
+      "nulos": 136900,
+      "votos_esquerda": 1451293,
+      "votos_direita": 782143,
+      "votos_terceira_via": 0,
+      "votos_validos": 2233436,
+      "taxa_abstencao_pct": 16.0652,
+      "votos_vencedor": 1451293,
+      "votos_segundo": 782143,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 17,
+      "votos_validos_total": 2233436,
+      "margem_pct": 29.9606,
+      "margem_media_historica_pct": 31.6047,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "PE",
+      "regiao": "Nordeste",
+      "aptos": 6569316,
+      "abstencoes": 1191872,
+      "brancos": 76515,
+      "nulos": 341822,
+      "votos_esquerda": 3297944,
+      "votos_direita": 1661163,
+      "votos_terceira_via": 0,
+      "votos_validos": 4959107,
+      "taxa_abstencao_pct": 18.143,
+      "votos_vencedor": 3297944,
+      "votos_segundo": 1661163,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 17,
+      "votos_validos_total": 4959107,
+      "margem_pct": 33.0056,
+      "margem_media_historica_pct": 33.4346,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "PI",
+      "regiao": "Nordeste",
+      "aptos": 2370422,
+      "abstencoes": 423451,
+      "brancos": 20914,
+      "nulos": 86849,
+      "votos_esquerda": 1417113,
+      "votos_direita": 422095,
+      "votos_terceira_via": 0,
+      "votos_validos": 1839208,
+      "taxa_abstencao_pct": 17.8639,
+      "votos_vencedor": 1417113,
+      "votos_segundo": 422095,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 17,
+      "votos_validos_total": 1839208,
+      "margem_pct": 54.1004,
+      "margem_media_historica_pct": 53.9104,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "PR",
+      "regiao": "Sul",
+      "aptos": 7972415,
+      "abstencoes": 1376561,
+      "brancos": 132345,
+      "nulos": 290303,
+      "votos_esquerda": 1948790,
+      "votos_direita": 4224416,
+      "votos_terceira_via": 0,
+      "votos_validos": 6173206,
+      "taxa_abstencao_pct": 17.2665,
+      "votos_vencedor": 4224416,
+      "votos_segundo": 1948790,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 6173206,
+      "margem_pct": 36.863,
+      "margem_media_historica_pct": 30.8283,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "RJ",
+      "regiao": "Sudeste",
+      "aptos": 12406861,
+      "abstencoes": 2985349,
+      "brancos": 219829,
+      "nulos": 859238,
+      "votos_esquerda": 2673386,
+      "votos_direita": 5669059,
+      "votos_terceira_via": 0,
+      "votos_validos": 8342445,
+      "taxa_abstencao_pct": 24.0621,
+      "votos_vencedor": 5669059,
+      "votos_segundo": 2673386,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 8342445,
+      "margem_pct": 35.9088,
+      "margem_media_historica_pct": 24.4798,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "RN",
+      "regiao": "Nordeste",
+      "aptos": 2373876,
+      "abstencoes": 430545,
+      "brancos": 29990,
+      "nulos": 129752,
+      "votos_esquerda": 1131027,
+      "votos_direita": 652562,
+      "votos_terceira_via": 0,
+      "votos_validos": 1783589,
+      "taxa_abstencao_pct": 18.1368,
+      "votos_vencedor": 1131027,
+      "votos_segundo": 652562,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 17,
+      "votos_validos_total": 1783589,
+      "margem_pct": 26.826,
+      "margem_media_historica_pct": 28.51,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "RO",
+      "regiao": "Norte",
+      "aptos": 1175634,
+      "abstencoes": 293413,
+      "brancos": 13856,
+      "nulos": 44054,
+      "votos_esquerda": 229343,
+      "votos_direita": 594968,
+      "votos_terceira_via": 0,
+      "votos_validos": 824311,
+      "taxa_abstencao_pct": 24.9579,
+      "votos_vencedor": 594968,
+      "votos_segundo": 229343,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 824311,
+      "margem_pct": 44.3552,
+      "margem_media_historica_pct": 42.8402,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "RR",
+      "regiao": "Norte",
+      "aptos": 333576,
+      "abstencoes": 62925,
+      "brancos": 3700,
+      "nulos": 10811,
+      "votos_esquerda": 72872,
+      "votos_direita": 183268,
+      "votos_terceira_via": 0,
+      "votos_validos": 256140,
+      "taxa_abstencao_pct": 18.8638,
+      "votos_vencedor": 183268,
+      "votos_segundo": 72872,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 256140,
+      "margem_pct": 43.0999,
+      "margem_media_historica_pct": 47.6308,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "RS",
+      "regiao": "Sul",
+      "aptos": 8353814,
+      "abstencoes": 1576396,
+      "brancos": 208909,
+      "nulos": 411601,
+      "votos_esquerda": 2263171,
+      "votos_direita": 3893737,
+      "votos_terceira_via": 0,
+      "votos_validos": 6156908,
+      "taxa_abstencao_pct": 18.8704,
+      "votos_vencedor": 3893737,
+      "votos_segundo": 2263171,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 6156908,
+      "margem_pct": 26.4835,
+      "margem_media_historica_pct": 19.5914,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "SC",
+      "regiao": "Sul",
+      "aptos": 5073146,
+      "abstencoes": 855612,
+      "brancos": 88680,
+      "nulos": 221888,
+      "votos_esquerda": 940724,
+      "votos_direita": 2966242,
+      "votos_terceira_via": 0,
+      "votos_validos": 3906966,
+      "taxa_abstencao_pct": 16.8655,
+      "votos_vencedor": 2966242,
+      "votos_segundo": 940724,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 3906966,
+      "margem_pct": 51.8438,
+      "margem_media_historica_pct": 45.1933,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "SE",
+      "regiao": "Nordeste",
+      "aptos": 1577191,
+      "abstencoes": 312437,
+      "brancos": 21087,
+      "nulos": 119746,
+      "votos_esquerda": 759061,
+      "votos_direita": 364860,
+      "votos_terceira_via": 0,
+      "votos_validos": 1123921,
+      "taxa_abstencao_pct": 19.8097,
+      "votos_vencedor": 759061,
+      "votos_segundo": 364860,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 17,
+      "votos_validos_total": 1123921,
+      "margem_pct": 35.0737,
+      "margem_media_historica_pct": 34.7429,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "SP",
+      "regiao": "Sudeste",
+      "aptos": 33042569,
+      "abstencoes": 7196426,
+      "brancos": 746949,
+      "nulos": 2581039,
+      "votos_esquerda": 7212132,
+      "votos_direita": 15306023,
+      "votos_terceira_via": 0,
+      "votos_validos": 22518155,
+      "taxa_abstencao_pct": 21.7793,
+      "votos_vencedor": 15306023,
+      "votos_segundo": 7212132,
+      "candidato_vencedor": 17,
+      "candidato_segundo": 13,
+      "votos_validos_total": 22518155,
+      "margem_pct": 35.9438,
+      "margem_media_historica_pct": 23.211,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2018,
+      "turno": 2,
+      "uf": "TO",
+      "regiao": "Norte",
+      "aptos": 1039178,
+      "abstencoes": 258102,
+      "brancos": 7688,
+      "nulos": 45111,
+      "votos_esquerda": 371593,
+      "votos_direita": 356684,
+      "votos_terceira_via": 0,
+      "votos_validos": 728277,
+      "taxa_abstencao_pct": 24.8371,
+      "votos_vencedor": 371593,
+      "votos_segundo": 356684,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 17,
+      "votos_validos_total": 728277,
+      "margem_pct": 2.0472,
+      "margem_media_historica_pct": 2.3789,
+      "margem_inferior_3_pct": true
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "AC",
+      "regiao": "Norte",
+      "aptos": 587765,
+      "abstencoes": 167005,
+      "brancos": 4722,
+      "nulos": 6722,
+      "votos_esquerda": 121566,
+      "votos_direita": 287750,
+      "votos_terceira_via": 0,
+      "votos_validos": 409316,
+      "taxa_abstencao_pct": 28.4136,
+      "votos_vencedor": 287750,
+      "votos_segundo": 121566,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 409316,
+      "margem_pct": 40.6004,
+      "margem_media_historica_pct": 47.524,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "AL",
+      "regiao": "Nordeste",
+      "aptos": 2325814,
+      "abstencoes": 540826,
+      "brancos": 23376,
+      "nulos": 96954,
+      "votos_esquerda": 976831,
+      "votos_direita": 687827,
+      "votos_terceira_via": 0,
+      "votos_validos": 1664658,
+      "taxa_abstencao_pct": 23.2532,
+      "votos_vencedor": 976831,
+      "votos_segundo": 687827,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 1664658,
+      "margem_pct": 17.3612,
+      "margem_media_historica_pct": 18.599,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "AM",
+      "regiao": "Norte",
+      "aptos": 2647123,
+      "abstencoes": 579164,
+      "brancos": 21594,
+      "nulos": 79549,
+      "votos_esquerda": 1004991,
+      "votos_direita": 961741,
+      "votos_terceira_via": 0,
+      "votos_validos": 1966732,
+      "taxa_abstencao_pct": 21.879,
+      "votos_vencedor": 1004991,
+      "votos_segundo": 961741,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 1966732,
+      "margem_pct": 2.1991,
+      "margem_media_historica_pct": 1.3708,
+      "margem_inferior_3_pct": true
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "AP",
+      "regiao": "Norte",
+      "aptos": 550131,
+      "abstencoes": 149448,
+      "brancos": 4018,
+      "nulos": 6200,
+      "votos_esquerda": 189918,
+      "votos_direita": 200547,
+      "votos_terceira_via": 0,
+      "votos_validos": 390465,
+      "taxa_abstencao_pct": 27.1659,
+      "votos_vencedor": 200547,
+      "votos_segundo": 189918,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 390465,
+      "margem_pct": 2.7221,
+      "margem_media_historica_pct": 1.5618,
+      "margem_inferior_3_pct": true
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "BA",
+      "regiao": "Nordeste",
+      "aptos": 11282999,
+      "abstencoes": 2311271,
+      "brancos": 121221,
+      "nulos": 395664,
+      "votos_esquerda": 6097815,
+      "votos_direita": 2357028,
+      "votos_terceira_via": 0,
+      "votos_validos": 8454843,
+      "taxa_abstencao_pct": 20.4845,
+      "votos_vencedor": 6097815,
+      "votos_segundo": 2357028,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 8454843,
+      "margem_pct": 44.2443,
+      "margem_media_historica_pct": 44.8153,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "CE",
+      "regiao": "Nordeste",
+      "aptos": 6818192,
+      "abstencoes": 1168794,
+      "brancos": 67045,
+      "nulos": 139985,
+      "votos_esquerda": 3807891,
+      "votos_direita": 1634477,
+      "votos_terceira_via": 0,
+      "votos_validos": 5442368,
+      "taxa_abstencao_pct": 17.1423,
+      "votos_vencedor": 3807891,
+      "votos_segundo": 1634477,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 5442368,
+      "margem_pct": 39.9351,
+      "margem_media_historica_pct": 41.0744,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "DF",
+      "regiao": "Centro-Oeste",
+      "aptos": 2207628,
+      "abstencoes": 369136,
+      "brancos": 29663,
+      "nulos": 38203,
+      "votos_esquerda": 729295,
+      "votos_direita": 1041331,
+      "votos_terceira_via": 0,
+      "votos_validos": 1770626,
+      "taxa_abstencao_pct": 16.7209,
+      "votos_vencedor": 1041331,
+      "votos_segundo": 729295,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 1770626,
+      "margem_pct": 17.6229,
+      "margem_media_historica_pct": 28.7976,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "ES",
+      "regiao": "Sudeste",
+      "aptos": 2922264,
+      "abstencoes": 599995,
+      "brancos": 37214,
+      "nulos": 76143,
+      "votos_esquerda": 926767,
+      "votos_direita": 1282145,
+      "votos_terceira_via": 0,
+      "votos_validos": 2208912,
+      "taxa_abstencao_pct": 20.5319,
+      "votos_vencedor": 1282145,
+      "votos_segundo": 926767,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 2208912,
+      "margem_pct": 16.0884,
+      "margem_media_historica_pct": 21.106,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "GO",
+      "regiao": "Centro-Oeste",
+      "aptos": 4870621,
+      "abstencoes": 1010270,
+      "brancos": 43610,
+      "nulos": 81585,
+      "votos_esquerda": 1542115,
+      "votos_direita": 2193041,
+      "votos_terceira_via": 0,
+      "votos_validos": 3735156,
+      "taxa_abstencao_pct": 20.7421,
+      "votos_vencedor": 2193041,
+      "votos_segundo": 1542115,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 3735156,
+      "margem_pct": 17.427,
+      "margem_media_historica_pct": 24.2353,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "MA",
+      "regiao": "Nordeste",
+      "aptos": 5039307,
+      "abstencoes": 1184503,
+      "brancos": 35807,
+      "nulos": 67823,
+      "votos_esquerda": 2668425,
+      "votos_direita": 1082749,
+      "votos_terceira_via": 0,
+      "votos_validos": 3751174,
+      "taxa_abstencao_pct": 23.5053,
+      "votos_vencedor": 2668425,
+      "votos_segundo": 1082749,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 3751174,
+      "margem_pct": 42.2715,
+      "margem_media_historica_pct": 44.3955,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "MG",
+      "regiao": "Sudeste",
+      "aptos": 16284615,
+      "abstencoes": 3418331,
+      "brancos": 183206,
+      "nulos": 350808,
+      "votos_esquerda": 6190960,
+      "votos_direita": 6141310,
+      "votos_terceira_via": 0,
+      "votos_validos": 12332270,
+      "taxa_abstencao_pct": 20.9912,
+      "votos_vencedor": 6190960,
+      "votos_segundo": 6141310,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 12332270,
+      "margem_pct": 0.4026,
+      "margem_media_historica_pct": 8.3914,
+      "margem_inferior_3_pct": true
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "MS",
+      "regiao": "Centro-Oeste",
+      "aptos": 1996066,
+      "abstencoes": 446193,
+      "brancos": 18062,
+      "nulos": 51658,
+      "votos_esquerda": 599547,
+      "votos_direita": 880606,
+      "votos_terceira_via": 0,
+      "votos_validos": 1480153,
+      "taxa_abstencao_pct": 22.3536,
+      "votos_vencedor": 880606,
+      "votos_segundo": 599547,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 1480153,
+      "margem_pct": 18.9885,
+      "margem_media_historica_pct": 24.715,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "MT",
+      "regiao": "Centro-Oeste",
+      "aptos": 2469797,
+      "abstencoes": 556566,
+      "brancos": 16317,
+      "nulos": 27398,
+      "votos_esquerda": 652786,
+      "votos_direita": 1216730,
+      "votos_terceira_via": 0,
+      "votos_validos": 1869516,
+      "taxa_abstencao_pct": 22.5349,
+      "votos_vencedor": 1216730,
+      "votos_segundo": 652786,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 1869516,
+      "margem_pct": 30.1652,
+      "margem_media_historica_pct": 31.501,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "PA",
+      "regiao": "Norte",
+      "aptos": 6078857,
+      "abstencoes": 1377117,
+      "brancos": 43602,
+      "nulos": 75159,
+      "votos_esquerda": 2509084,
+      "votos_direita": 2073895,
+      "votos_terceira_via": 0,
+      "votos_validos": 4582979,
+      "taxa_abstencao_pct": 22.6542,
+      "votos_vencedor": 2509084,
+      "votos_segundo": 2073895,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 4582979,
+      "margem_pct": 9.4958,
+      "margem_media_historica_pct": 9.5544,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "PB",
+      "regiao": "Nordeste",
+      "aptos": 3091719,
+      "abstencoes": 517504,
+      "brancos": 35467,
+      "nulos": 134293,
+      "votos_esquerda": 1601953,
+      "votos_direita": 802502,
+      "votos_terceira_via": 0,
+      "votos_validos": 2404455,
+      "taxa_abstencao_pct": 16.7384,
+      "votos_vencedor": 1601953,
+      "votos_segundo": 802502,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 2404455,
+      "margem_pct": 33.2487,
+      "margem_media_historica_pct": 31.6047,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "PE",
+      "regiao": "Nordeste",
+      "aptos": 7015086,
+      "abstencoes": 1214351,
+      "brancos": 74435,
+      "nulos": 286535,
+      "votos_esquerda": 3640933,
+      "votos_direita": 1798832,
+      "votos_terceira_via": 0,
+      "votos_validos": 5439765,
+      "taxa_abstencao_pct": 17.3106,
+      "votos_vencedor": 3640933,
+      "votos_segundo": 1798832,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 5439765,
+      "margem_pct": 33.8636,
+      "margem_media_historica_pct": 33.4346,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "PI",
+      "regiao": "Nordeste",
+      "aptos": 2570253,
+      "abstencoes": 481723,
+      "brancos": 19027,
+      "nulos": 51055,
+      "votos_esquerda": 1551383,
+      "votos_direita": 467065,
+      "votos_terceira_via": 0,
+      "votos_validos": 2018448,
+      "taxa_abstencao_pct": 18.7422,
+      "votos_vencedor": 1551383,
+      "votos_segundo": 467065,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 2018448,
+      "margem_pct": 53.7204,
+      "margem_media_historica_pct": 53.9104,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "PR",
+      "regiao": "Sul",
+      "aptos": 8480626,
+      "abstencoes": 1580206,
+      "brancos": 95555,
+      "nulos": 138917,
+      "votos_esquerda": 2506605,
+      "votos_direita": 4159343,
+      "votos_terceira_via": 0,
+      "votos_validos": 6665948,
+      "taxa_abstencao_pct": 18.6331,
+      "votos_vencedor": 4159343,
+      "votos_segundo": 2506605,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 6665948,
+      "margem_pct": 24.7937,
+      "margem_media_historica_pct": 30.8283,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "RJ",
+      "regiao": "Sudeste",
+      "aptos": 12827044,
+      "abstencoes": 2853222,
+      "brancos": 126645,
+      "nulos": 287066,
+      "votos_esquerda": 4156217,
+      "votos_direita": 5403894,
+      "votos_terceira_via": 0,
+      "votos_validos": 9560111,
+      "taxa_abstencao_pct": 22.2438,
+      "votos_vencedor": 5403894,
+      "votos_segundo": 4156217,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 9560111,
+      "margem_pct": 13.0509,
+      "margem_media_historica_pct": 24.4798,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "RN",
+      "regiao": "Nordeste",
+      "aptos": 2554326,
+      "abstencoes": 445527,
+      "brancos": 20585,
+      "nulos": 50048,
+      "votos_esquerda": 1326785,
+      "votos_direita": 711381,
+      "votos_terceira_via": 0,
+      "votos_validos": 2038166,
+      "taxa_abstencao_pct": 17.4421,
+      "votos_vencedor": 1326785,
+      "votos_segundo": 711381,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 2038166,
+      "margem_pct": 30.194,
+      "margem_media_historica_pct": 28.51,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "RO",
+      "regiao": "Norte",
+      "aptos": 1230172,
+      "abstencoes": 303655,
+      "brancos": 9428,
+      "nulos": 20949,
+      "votos_esquerda": 262904,
+      "votos_direita": 633236,
+      "votos_terceira_via": 0,
+      "votos_validos": 896140,
+      "taxa_abstencao_pct": 24.6839,
+      "votos_vencedor": 633236,
+      "votos_segundo": 262904,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 896140,
+      "margem_pct": 41.3252,
+      "margem_media_historica_pct": 42.8402,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "RR",
+      "regiao": "Norte",
+      "aptos": 366641,
+      "abstencoes": 80372,
+      "brancos": 2173,
+      "nulos": 3450,
+      "votos_esquerda": 67128,
+      "votos_direita": 213518,
+      "votos_terceira_via": 0,
+      "votos_validos": 280646,
+      "taxa_abstencao_pct": 21.9212,
+      "votos_vencedor": 213518,
+      "votos_segundo": 67128,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 280646,
+      "margem_pct": 52.1618,
+      "margem_media_historica_pct": 47.6308,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "RS",
+      "regiao": "Sul",
+      "aptos": 8589684,
+      "abstencoes": 1658832,
+      "brancos": 122456,
+      "nulos": 183360,
+      "votos_esquerda": 2891851,
+      "votos_direita": 3733185,
+      "votos_terceira_via": 0,
+      "votos_validos": 6625036,
+      "taxa_abstencao_pct": 19.3119,
+      "votos_vencedor": 3733185,
+      "votos_segundo": 2891851,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 6625036,
+      "margem_pct": 12.6993,
+      "margem_media_historica_pct": 19.5914,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "SC",
+      "regiao": "Sul",
+      "aptos": 5501284,
+      "abstencoes": 958467,
+      "brancos": 56475,
+      "nulos": 86794,
+      "votos_esquerda": 1351918,
+      "votos_direita": 3047630,
+      "votos_terceira_via": 0,
+      "votos_validos": 4399548,
+      "taxa_abstencao_pct": 17.4226,
+      "votos_vencedor": 3047630,
+      "votos_segundo": 1351918,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 4399548,
+      "margem_pct": 38.5429,
+      "margem_media_historica_pct": 45.1933,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "SE",
+      "regiao": "Nordeste",
+      "aptos": 1671241,
+      "abstencoes": 315774,
+      "brancos": 18240,
+      "nulos": 53190,
+      "votos_esquerda": 862951,
+      "votos_direita": 421086,
+      "votos_terceira_via": 0,
+      "votos_validos": 1284037,
+      "taxa_abstencao_pct": 18.8946,
+      "votos_vencedor": 862951,
+      "votos_segundo": 421086,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 1284037,
+      "margem_pct": 34.4122,
+      "margem_media_historica_pct": 34.7429,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "SP",
+      "regiao": "Sudeste",
+      "aptos": 34684876,
+      "abstencoes": 7304385,
+      "brancos": 526677,
+      "nulos": 1117345,
+      "votos_esquerda": 11519882,
+      "votos_direita": 14216587,
+      "votos_terceira_via": 0,
+      "votos_validos": 25736469,
+      "taxa_abstencao_pct": 21.0593,
+      "votos_vencedor": 14216587,
+      "votos_segundo": 11519882,
+      "candidato_vencedor": 22,
+      "candidato_segundo": 13,
+      "votos_validos_total": 25736469,
+      "margem_pct": 10.4781,
+      "margem_media_historica_pct": 23.211,
+      "margem_inferior_3_pct": false
+    },
+    {
+      "ano": 2022,
+      "turno": 2,
+      "uf": "TO",
+      "regiao": "Norte",
+      "aptos": 1094302,
+      "abstencoes": 223064,
+      "brancos": 7158,
+      "nulos": 17833,
+      "votos_esquerda": 434593,
+      "votos_direita": 411654,
+      "votos_terceira_via": 0,
+      "votos_validos": 846247,
+      "taxa_abstencao_pct": 20.3841,
+      "votos_vencedor": 434593,
+      "votos_segundo": 411654,
+      "candidato_vencedor": 13,
+      "candidato_segundo": 22,
+      "votos_validos_total": 846247,
+      "margem_pct": 2.7107,
+      "margem_media_historica_pct": 2.3789,
+      "margem_inferior_3_pct": true
+    }
+  ],
+  "rankings_por_ano_e_turno": {
+    "2018_turno_1_abstencao": [
+      {
+        "ranking": 1,
+        "uf": "MT",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 24.5528
+      },
+      {
+        "ranking": 2,
+        "uf": "RJ",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 23.5937
+      },
+      {
+        "ranking": 3,
+        "uf": "AL",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 22.5986
+      },
+      {
+        "ranking": 4,
+        "uf": "RO",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 22.3097
+      },
+      {
+        "ranking": 5,
+        "uf": "MG",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 22.1943
+      },
+      {
+        "ranking": 6,
+        "uf": "SP",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 21.5231
+      },
+      {
+        "ranking": 7,
+        "uf": "MS",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 21.2172
+      },
+      {
+        "ranking": 8,
+        "uf": "BA",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 20.7387
+      },
+      {
+        "ranking": 9,
+        "uf": "MA",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 20.5344
+      },
+      {
+        "ranking": 10,
+        "uf": "GO",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 20.1928
+      },
+      {
+        "ranking": 11,
+        "uf": "TO",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 19.9761
+      },
+      {
+        "ranking": 12,
+        "uf": "PA",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 19.9519
+      },
+      {
+        "ranking": 13,
+        "uf": "AM",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 19.3493
+      },
+      {
+        "ranking": 14,
+        "uf": "ES",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 19.257
+      },
+      {
+        "ranking": 15,
+        "uf": "AC",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 18.9869
+      },
+      {
+        "ranking": 16,
+        "uf": "SE",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 18.8205
+      },
+      {
+        "ranking": 17,
+        "uf": "DF",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 18.7025
+      },
+      {
+        "ranking": 18,
+        "uf": "RS",
+        "regiao": "Sul",
+        "taxa_abstencao_pct": 18.1371
+      },
+      {
+        "ranking": 19,
+        "uf": "PE",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 17.9027
+      },
+      {
+        "ranking": 20,
+        "uf": "CE",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 17.3267
+      },
+      {
+        "ranking": 21,
+        "uf": "RN",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 17.1116
+      },
+      {
+        "ranking": 22,
+        "uf": "PR",
+        "regiao": "Sul",
+        "taxa_abstencao_pct": 16.9567
+      },
+      {
+        "ranking": 23,
+        "uf": "AP",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 16.6951
+      },
+      {
+        "ranking": 24,
+        "uf": "SC",
+        "regiao": "Sul",
+        "taxa_abstencao_pct": 16.3044
+      },
+      {
+        "ranking": 25,
+        "uf": "PI",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 15.714
+      },
+      {
+        "ranking": 26,
+        "uf": "PB",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 15.0331
+      },
+      {
+        "ranking": 27,
+        "uf": "RR",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 13.9215
+      }
+    ],
+    "2018_turno_1_brancos": [
+      {
+        "ranking": 1,
+        "uf": "SP",
+        "regiao": "Sudeste",
+        "brancos": 837211
+      },
+      {
+        "ranking": 2,
+        "uf": "MG",
+        "regiao": "Sudeste",
+        "brancos": 381959
+      },
+      {
+        "ranking": 3,
+        "uf": "RJ",
+        "regiao": "Sudeste",
+        "brancos": 282605
+      },
+      {
+        "ranking": 4,
+        "uf": "RS",
+        "regiao": "Sul",
+        "brancos": 235396
+      },
+      {
+        "ranking": 5,
+        "uf": "BA",
+        "regiao": "Nordeste",
+        "brancos": 169806
+      },
+      {
+        "ranking": 6,
+        "uf": "PR",
+        "regiao": "Sul",
+        "brancos": 165991
+      },
+      {
+        "ranking": 7,
+        "uf": "PE",
+        "regiao": "Nordeste",
+        "brancos": 153557
+      },
+      {
+        "ranking": 8,
+        "uf": "CE",
+        "regiao": "Nordeste",
+        "brancos": 111881
+      },
+      {
+        "ranking": 9,
+        "uf": "SC",
+        "regiao": "Sul",
+        "brancos": 103220
+      },
+      {
+        "ranking": 10,
+        "uf": "GO",
+        "regiao": "Centro-Oeste",
+        "brancos": 81276
+      },
+      {
+        "ranking": 11,
+        "uf": "PA",
+        "regiao": "Norte",
+        "brancos": 70590
+      },
+      {
+        "ranking": 12,
+        "uf": "PB",
+        "regiao": "Nordeste",
+        "brancos": 67039
+      },
+      {
+        "ranking": 13,
+        "uf": "ES",
+        "regiao": "Sudeste",
+        "brancos": 61910
+      },
+      {
+        "ranking": 14,
+        "uf": "MA",
+        "regiao": "Nordeste",
+        "brancos": 60409
+      },
+      {
+        "ranking": 15,
+        "uf": "AL",
+        "regiao": "Nordeste",
+        "brancos": 46692
+      },
+      {
+        "ranking": 16,
+        "uf": "RN",
+        "regiao": "Nordeste",
+        "brancos": 44605
+      },
+      {
+        "ranking": 17,
+        "uf": "MT",
+        "regiao": "Centro-Oeste",
+        "brancos": 33540
+      },
+      {
+        "ranking": 18,
+        "uf": "PI",
+        "regiao": "Nordeste",
+        "brancos": 32809
+      },
+      {
+        "ranking": 19,
+        "uf": "SE",
+        "regiao": "Nordeste",
+        "brancos": 32124
+      },
+      {
+        "ranking": 20,
+        "uf": "DF",
+        "regiao": "Centro-Oeste",
+        "brancos": 31995
+      },
+      {
+        "ranking": 21,
+        "uf": "MS",
+        "regiao": "Centro-Oeste",
+        "brancos": 30951
+      },
+      {
+        "ranking": 22,
+        "uf": "AM",
+        "regiao": "Norte",
+        "brancos": 29010
+      },
+      {
+        "ranking": 23,
+        "uf": "RO",
+        "regiao": "Norte",
+        "brancos": 15329
+      },
+      {
+        "ranking": 24,
+        "uf": "TO",
+        "regiao": "Norte",
+        "brancos": 8915
+      },
+      {
+        "ranking": 25,
+        "uf": "AC",
+        "regiao": "Norte",
+        "brancos": 5499
+      },
+      {
+        "ranking": 26,
+        "uf": "AP",
+        "regiao": "Norte",
+        "brancos": 4739
+      },
+      {
+        "ranking": 27,
+        "uf": "RR",
+        "regiao": "Norte",
+        "brancos": 2833
+      }
+    ],
+    "2018_turno_1_nulos": [
+      {
+        "ranking": 1,
+        "uf": "SP",
+        "regiao": "Sudeste",
+        "nulos": 1740759
+      },
+      {
+        "ranking": 2,
+        "uf": "MG",
+        "regiao": "Sudeste",
+        "nulos": 845008
+      },
+      {
+        "ranking": 3,
+        "uf": "BA",
+        "regiao": "Nordeste",
+        "nulos": 697750
+      },
+      {
+        "ranking": 4,
+        "uf": "RJ",
+        "regiao": "Sudeste",
+        "nulos": 653582
+      },
+      {
+        "ranking": 5,
+        "uf": "PE",
+        "regiao": "Nordeste",
+        "nulos": 514413
+      },
+      {
+        "ranking": 6,
+        "uf": "PR",
+        "regiao": "Sul",
+        "nulos": 308785
+      },
+      {
+        "ranking": 7,
+        "uf": "CE",
+        "regiao": "Nordeste",
+        "nulos": 252676
+      },
+      {
+        "ranking": 8,
+        "uf": "RS",
+        "regiao": "Sul",
+        "nulos": 230716
+      },
+      {
+        "ranking": 9,
+        "uf": "GO",
+        "regiao": "Centro-Oeste",
+        "nulos": 208869
+      },
+      {
+        "ranking": 10,
+        "uf": "PB",
+        "regiao": "Nordeste",
+        "nulos": 204291
+      },
+      {
+        "ranking": 11,
+        "uf": "PA",
+        "regiao": "Norte",
+        "nulos": 188473
+      },
+      {
+        "ranking": 12,
+        "uf": "SC",
+        "regiao": "Sul",
+        "nulos": 187275
+      },
+      {
+        "ranking": 13,
+        "uf": "MA",
+        "regiao": "Nordeste",
+        "nulos": 177960
+      },
+      {
+        "ranking": 14,
+        "uf": "RN",
+        "regiao": "Nordeste",
+        "nulos": 130877
+      },
+      {
+        "ranking": 15,
+        "uf": "PI",
+        "regiao": "Nordeste",
+        "nulos": 116180
+      },
+      {
+        "ranking": 16,
+        "uf": "ES",
+        "regiao": "Sudeste",
+        "nulos": 113201
+      },
+      {
+        "ranking": 17,
+        "uf": "AL",
+        "regiao": "Nordeste",
+        "nulos": 111065
+      },
+      {
+        "ranking": 18,
+        "uf": "SE",
+        "regiao": "Nordeste",
+        "nulos": 107796
+      },
+      {
+        "ranking": 19,
+        "uf": "MT",
+        "regiao": "Centro-Oeste",
+        "nulos": 90262
+      },
+      {
+        "ranking": 20,
+        "uf": "AM",
+        "regiao": "Norte",
+        "nulos": 76277
+      },
+      {
+        "ranking": 21,
+        "uf": "TO",
+        "regiao": "Norte",
+        "nulos": 65924
+      },
+      {
+        "ranking": 22,
+        "uf": "DF",
+        "regiao": "Centro-Oeste",
+        "nulos": 59212
+      },
+      {
+        "ranking": 23,
+        "uf": "MS",
+        "regiao": "Centro-Oeste",
+        "nulos": 51412
+      },
+      {
+        "ranking": 24,
+        "uf": "RO",
+        "regiao": "Norte",
+        "nulos": 33110
+      },
+      {
+        "ranking": 25,
+        "uf": "AC",
+        "regiao": "Norte",
+        "nulos": 16357
+      },
+      {
+        "ranking": 26,
+        "uf": "AP",
+        "regiao": "Norte",
+        "nulos": 12124
+      },
+      {
+        "ranking": 27,
+        "uf": "RR",
+        "regiao": "Norte",
+        "nulos": 7529
+      }
+    ],
+    "2018_turno_2_abstencao": [
+      {
+        "ranking": 1,
+        "uf": "AC",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 27.1117
+      },
+      {
+        "ranking": 2,
+        "uf": "MT",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 26.2288
+      },
+      {
+        "ranking": 3,
+        "uf": "RO",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 24.9579
+      },
+      {
+        "ranking": 4,
+        "uf": "TO",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 24.8371
+      },
+      {
+        "ranking": 5,
+        "uf": "AL",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 24.8328
+      },
+      {
+        "ranking": 6,
+        "uf": "RJ",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 24.0621
+      },
+      {
+        "ranking": 7,
+        "uf": "MA",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 23.3516
+      },
+      {
+        "ranking": 8,
+        "uf": "PA",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 23.2917
+      },
+      {
+        "ranking": 9,
+        "uf": "MG",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 23.1323
+      },
+      {
+        "ranking": 10,
+        "uf": "AP",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 22.8811
+      },
+      {
+        "ranking": 11,
+        "uf": "MS",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 22.781
+      },
+      {
+        "ranking": 12,
+        "uf": "SP",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 21.7793
+      },
+      {
+        "ranking": 13,
+        "uf": "GO",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 21.6101
+      },
+      {
+        "ranking": 14,
+        "uf": "AM",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 21.3907
+      },
+      {
+        "ranking": 15,
+        "uf": "BA",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 21.0896
+      },
+      {
+        "ranking": 16,
+        "uf": "ES",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 20.9186
+      },
+      {
+        "ranking": 17,
+        "uf": "SE",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 19.8097
+      },
+      {
+        "ranking": 18,
+        "uf": "DF",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 18.9201
+      },
+      {
+        "ranking": 19,
+        "uf": "RS",
+        "regiao": "Sul",
+        "taxa_abstencao_pct": 18.8704
+      },
+      {
+        "ranking": 20,
+        "uf": "RR",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 18.8638
+      },
+      {
+        "ranking": 21,
+        "uf": "CE",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 18.6875
+      },
+      {
+        "ranking": 22,
+        "uf": "PE",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 18.143
+      },
+      {
+        "ranking": 23,
+        "uf": "RN",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 18.1368
+      },
+      {
+        "ranking": 24,
+        "uf": "PI",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 17.8639
+      },
+      {
+        "ranking": 25,
+        "uf": "PR",
+        "regiao": "Sul",
+        "taxa_abstencao_pct": 17.2665
+      },
+      {
+        "ranking": 26,
+        "uf": "SC",
+        "regiao": "Sul",
+        "taxa_abstencao_pct": 16.8655
+      },
+      {
+        "ranking": 27,
+        "uf": "PB",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 16.0652
+      }
+    ],
+    "2018_turno_2_brancos": [
+      {
+        "ranking": 1,
+        "uf": "SP",
+        "regiao": "Sudeste",
+        "brancos": 746949
+      },
+      {
+        "ranking": 2,
+        "uf": "MG",
+        "regiao": "Sudeste",
+        "brancos": 309049
+      },
+      {
+        "ranking": 3,
+        "uf": "RJ",
+        "regiao": "Sudeste",
+        "brancos": 219829
+      },
+      {
+        "ranking": 4,
+        "uf": "RS",
+        "regiao": "Sul",
+        "brancos": 208909
+      },
+      {
+        "ranking": 5,
+        "uf": "PR",
+        "regiao": "Sul",
+        "brancos": 132345
+      },
+      {
+        "ranking": 6,
+        "uf": "BA",
+        "regiao": "Nordeste",
+        "brancos": 107203
+      },
+      {
+        "ranking": 7,
+        "uf": "SC",
+        "regiao": "Sul",
+        "brancos": 88680
+      },
+      {
+        "ranking": 8,
+        "uf": "CE",
+        "regiao": "Nordeste",
+        "brancos": 78178
+      },
+      {
+        "ranking": 9,
+        "uf": "PE",
+        "regiao": "Nordeste",
+        "brancos": 76515
+      },
+      {
+        "ranking": 10,
+        "uf": "PA",
+        "regiao": "Norte",
+        "brancos": 60908
+      },
+      {
+        "ranking": 11,
+        "uf": "GO",
+        "regiao": "Centro-Oeste",
+        "brancos": 59568
+      },
+      {
+        "ranking": 12,
+        "uf": "ES",
+        "regiao": "Sudeste",
+        "brancos": 51580
+      },
+      {
+        "ranking": 13,
+        "uf": "DF",
+        "regiao": "Centro-Oeste",
+        "brancos": 44657
+      },
+      {
+        "ranking": 14,
+        "uf": "MA",
+        "regiao": "Nordeste",
+        "brancos": 42274
+      },
+      {
+        "ranking": 15,
+        "uf": "PB",
+        "regiao": "Nordeste",
+        "brancos": 36933
+      },
+      {
+        "ranking": 16,
+        "uf": "RN",
+        "regiao": "Nordeste",
+        "brancos": 29990
+      },
+      {
+        "ranking": 17,
+        "uf": "AM",
+        "regiao": "Norte",
+        "brancos": 29353
+      },
+      {
+        "ranking": 18,
+        "uf": "MS",
+        "regiao": "Centro-Oeste",
+        "brancos": 27014
+      },
+      {
+        "ranking": 19,
+        "uf": "AL",
+        "regiao": "Nordeste",
+        "brancos": 25919
+      },
+      {
+        "ranking": 20,
+        "uf": "MT",
+        "regiao": "Centro-Oeste",
+        "brancos": 23071
+      },
+      {
+        "ranking": 21,
+        "uf": "SE",
+        "regiao": "Nordeste",
+        "brancos": 21087
+      },
+      {
+        "ranking": 22,
+        "uf": "PI",
+        "regiao": "Nordeste",
+        "brancos": 20914
+      },
+      {
+        "ranking": 23,
+        "uf": "RO",
+        "regiao": "Norte",
+        "brancos": 13856
+      },
+      {
+        "ranking": 24,
+        "uf": "TO",
+        "regiao": "Norte",
+        "brancos": 7688
+      },
+      {
+        "ranking": 25,
+        "uf": "AC",
+        "regiao": "Norte",
+        "brancos": 6594
+      },
+      {
+        "ranking": 26,
+        "uf": "AP",
+        "regiao": "Norte",
+        "brancos": 6589
+      },
+      {
+        "ranking": 27,
+        "uf": "RR",
+        "regiao": "Norte",
+        "brancos": 3700
+      }
+    ],
+    "2018_turno_2_nulos": [
+      {
+        "ranking": 1,
+        "uf": "SP",
+        "regiao": "Sudeste",
+        "nulos": 2581039
+      },
+      {
+        "ranking": 2,
+        "uf": "MG",
+        "regiao": "Sudeste",
+        "nulos": 1275394
+      },
+      {
+        "ranking": 3,
+        "uf": "RJ",
+        "regiao": "Sudeste",
+        "nulos": 859238
+      },
+      {
+        "ranking": 4,
+        "uf": "BA",
+        "regiao": "Nordeste",
+        "nulos": 547841
+      },
+      {
+        "ranking": 5,
+        "uf": "RS",
+        "regiao": "Sul",
+        "nulos": 411601
+      },
+      {
+        "ranking": 6,
+        "uf": "PE",
+        "regiao": "Nordeste",
+        "nulos": 341822
+      },
+      {
+        "ranking": 7,
+        "uf": "PA",
+        "regiao": "Norte",
+        "nulos": 302178
+      },
+      {
+        "ranking": 8,
+        "uf": "PR",
+        "regiao": "Sul",
+        "nulos": 290303
+      },
+      {
+        "ranking": 9,
+        "uf": "CE",
+        "regiao": "Nordeste",
+        "nulos": 288048
+      },
+      {
+        "ranking": 10,
+        "uf": "SC",
+        "regiao": "Sul",
+        "nulos": 221888
+      },
+      {
+        "ranking": 11,
+        "uf": "GO",
+        "regiao": "Centro-Oeste",
+        "nulos": 189457
+      },
+      {
+        "ranking": 12,
+        "uf": "PB",
+        "regiao": "Nordeste",
+        "nulos": 136900
+      },
+      {
+        "ranking": 13,
+        "uf": "RN",
+        "regiao": "Nordeste",
+        "nulos": 129752
+      },
+      {
+        "ranking": 14,
+        "uf": "MA",
+        "regiao": "Nordeste",
+        "nulos": 119765
+      },
+      {
+        "ranking": 15,
+        "uf": "SE",
+        "regiao": "Nordeste",
+        "nulos": 119746
+      },
+      {
+        "ranking": 16,
+        "uf": "AM",
+        "regiao": "Norte",
+        "nulos": 118680
+      },
+      {
+        "ranking": 17,
+        "uf": "DF",
+        "regiao": "Centro-Oeste",
+        "nulos": 102988
+      },
+      {
+        "ranking": 18,
+        "uf": "ES",
+        "regiao": "Sudeste",
+        "nulos": 102536
+      },
+      {
+        "ranking": 19,
+        "uf": "AL",
+        "regiao": "Nordeste",
+        "nulos": 96413
+      },
+      {
+        "ranking": 20,
+        "uf": "PI",
+        "regiao": "Nordeste",
+        "nulos": 86849
+      },
+      {
+        "ranking": 21,
+        "uf": "MS",
+        "regiao": "Centro-Oeste",
+        "nulos": 85889
+      },
+      {
+        "ranking": 22,
+        "uf": "MT",
+        "regiao": "Centro-Oeste",
+        "nulos": 60981
+      },
+      {
+        "ranking": 23,
+        "uf": "TO",
+        "regiao": "Norte",
+        "nulos": 45111
+      },
+      {
+        "ranking": 24,
+        "uf": "RO",
+        "regiao": "Norte",
+        "nulos": 44054
+      },
+      {
+        "ranking": 25,
+        "uf": "AP",
+        "regiao": "Norte",
+        "nulos": 19638
+      },
+      {
+        "ranking": 26,
+        "uf": "RR",
+        "regiao": "Norte",
+        "nulos": 10811
+      },
+      {
+        "ranking": 27,
+        "uf": "AC",
+        "regiao": "Norte",
+        "nulos": 10659
+      }
+    ],
+    "2022_turno_1_abstencao": [
+      {
+        "ranking": 1,
+        "uf": "RO",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 24.6481
+      },
+      {
+        "ranking": 2,
+        "uf": "MT",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 23.3812
+      },
+      {
+        "ranking": 3,
+        "uf": "RJ",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 22.7414
+      },
+      {
+        "ranking": 4,
+        "uf": "AC",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 22.4309
+      },
+      {
+        "ranking": 5,
+        "uf": "AL",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 22.3736
+      },
+      {
+        "ranking": 6,
+        "uf": "MG",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 22.2835
+      },
+      {
+        "ranking": 7,
+        "uf": "MA",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 22.2026
+      },
+      {
+        "ranking": 8,
+        "uf": "MS",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 22.0841
+      },
+      {
+        "ranking": 9,
+        "uf": "GO",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 21.7173
+      },
+      {
+        "ranking": 10,
+        "uf": "SP",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 21.6094
+      },
+      {
+        "ranking": 11,
+        "uf": "BA",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 21.3461
+      },
+      {
+        "ranking": 12,
+        "uf": "PA",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 21.2191
+      },
+      {
+        "ranking": 13,
+        "uf": "ES",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 20.7533
+      },
+      {
+        "ranking": 14,
+        "uf": "AM",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 20.1392
+      },
+      {
+        "ranking": 15,
+        "uf": "RS",
+        "regiao": "Sul",
+        "taxa_abstencao_pct": 19.785
+      },
+      {
+        "ranking": 16,
+        "uf": "AP",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 19.5074
+      },
+      {
+        "ranking": 17,
+        "uf": "PR",
+        "regiao": "Sul",
+        "taxa_abstencao_pct": 19.4789
+      },
+      {
+        "ranking": 18,
+        "uf": "TO",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 18.5405
+      },
+      {
+        "ranking": 19,
+        "uf": "SC",
+        "regiao": "Sul",
+        "taxa_abstencao_pct": 18.4315
+      },
+      {
+        "ranking": 20,
+        "uf": "SE",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 18.3473
+      },
+      {
+        "ranking": 21,
+        "uf": "PE",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 18.2035
+      },
+      {
+        "ranking": 22,
+        "uf": "RN",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 18.1669
+      },
+      {
+        "ranking": 23,
+        "uf": "PI",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 17.6931
+      },
+      {
+        "ranking": 24,
+        "uf": "DF",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 17.5395
+      },
+      {
+        "ranking": 25,
+        "uf": "CE",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 17.4537
+      },
+      {
+        "ranking": 26,
+        "uf": "PB",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 17.2886
+      },
+      {
+        "ranking": 27,
+        "uf": "RR",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 16.7001
+      }
+    ],
+    "2022_turno_1_brancos": [
+      {
+        "ranking": 1,
+        "uf": "SP",
+        "regiao": "Sudeste",
+        "brancos": 571257
+      },
+      {
+        "ranking": 2,
+        "uf": "MG",
+        "regiao": "Sudeste",
+        "brancos": 229425
+      },
+      {
+        "ranking": 3,
+        "uf": "RJ",
+        "regiao": "Sudeste",
+        "brancos": 159773
+      },
+      {
+        "ranking": 4,
+        "uf": "RS",
+        "regiao": "Sul",
+        "brancos": 129345
+      },
+      {
+        "ranking": 5,
+        "uf": "BA",
+        "regiao": "Nordeste",
+        "brancos": 123450
+      },
+      {
+        "ranking": 6,
+        "uf": "PR",
+        "regiao": "Sul",
+        "brancos": 108894
+      },
+      {
+        "ranking": 7,
+        "uf": "PE",
+        "regiao": "Nordeste",
+        "brancos": 90092
+      },
+      {
+        "ranking": 8,
+        "uf": "CE",
+        "regiao": "Nordeste",
+        "brancos": 72246
+      },
+      {
+        "ranking": 9,
+        "uf": "SC",
+        "regiao": "Sul",
+        "brancos": 66871
+      },
+      {
+        "ranking": 10,
+        "uf": "GO",
+        "regiao": "Centro-Oeste",
+        "brancos": 48539
+      },
+      {
+        "ranking": 11,
+        "uf": "PB",
+        "regiao": "Nordeste",
+        "brancos": 41922
+      },
+      {
+        "ranking": 12,
+        "uf": "PA",
+        "regiao": "Norte",
+        "brancos": 40902
+      },
+      {
+        "ranking": 13,
+        "uf": "ES",
+        "regiao": "Sudeste",
+        "brancos": 39541
+      },
+      {
+        "ranking": 14,
+        "uf": "MA",
+        "regiao": "Nordeste",
+        "brancos": 35605
+      },
+      {
+        "ranking": 15,
+        "uf": "AL",
+        "regiao": "Nordeste",
+        "brancos": 28792
+      },
+      {
+        "ranking": 16,
+        "uf": "RN",
+        "regiao": "Nordeste",
+        "brancos": 26151
+      },
+      {
+        "ranking": 17,
+        "uf": "DF",
+        "regiao": "Centro-Oeste",
+        "brancos": 25162
+      },
+      {
+        "ranking": 18,
+        "uf": "SE",
+        "regiao": "Nordeste",
+        "brancos": 20224
+      },
+      {
+        "ranking": 19,
+        "uf": "AM",
+        "regiao": "Norte",
+        "brancos": 19570
+      },
+      {
+        "ranking": 20,
+        "uf": "PI",
+        "regiao": "Nordeste",
+        "brancos": 19477
+      },
+      {
+        "ranking": 21,
+        "uf": "MT",
+        "regiao": "Centro-Oeste",
+        "brancos": 18680
+      },
+      {
+        "ranking": 22,
+        "uf": "MS",
+        "regiao": "Centro-Oeste",
+        "brancos": 17651
+      },
+      {
+        "ranking": 23,
+        "uf": "RO",
+        "regiao": "Norte",
+        "brancos": 9350
+      },
+      {
+        "ranking": 24,
+        "uf": "TO",
+        "regiao": "Norte",
+        "brancos": 6795
+      },
+      {
+        "ranking": 25,
+        "uf": "AC",
+        "regiao": "Norte",
+        "brancos": 4664
+      },
+      {
+        "ranking": 26,
+        "uf": "AP",
+        "regiao": "Norte",
+        "brancos": 3289
+      },
+      {
+        "ranking": 27,
+        "uf": "RR",
+        "regiao": "Norte",
+        "brancos": 2255
+      }
+    ],
+    "2022_turno_1_nulos": [
+      {
+        "ranking": 1,
+        "uf": "SP",
+        "regiao": "Sudeste",
+        "nulos": 962123
+      },
+      {
+        "ranking": 2,
+        "uf": "MG",
+        "regiao": "Sudeste",
+        "nulos": 409170
+      },
+      {
+        "ranking": 3,
+        "uf": "BA",
+        "regiao": "Nordeste",
+        "nulos": 328383
+      },
+      {
+        "ranking": 4,
+        "uf": "RJ",
+        "regiao": "Sudeste",
+        "nulos": 293013
+      },
+      {
+        "ranking": 5,
+        "uf": "PE",
+        "regiao": "Nordeste",
+        "nulos": 196270
+      },
+      {
+        "ranking": 6,
+        "uf": "PR",
+        "regiao": "Sul",
+        "nulos": 152885
+      },
+      {
+        "ranking": 7,
+        "uf": "CE",
+        "regiao": "Nordeste",
+        "nulos": 127100
+      },
+      {
+        "ranking": 8,
+        "uf": "RS",
+        "regiao": "Sul",
+        "nulos": 122919
+      },
+      {
+        "ranking": 9,
+        "uf": "MA",
+        "regiao": "Nordeste",
+        "nulos": 103185
+      },
+      {
+        "ranking": 10,
+        "uf": "PB",
+        "regiao": "Nordeste",
+        "nulos": 93869
+      },
+      {
+        "ranking": 11,
+        "uf": "SC",
+        "regiao": "Sul",
+        "nulos": 89619
+      },
+      {
+        "ranking": 12,
+        "uf": "GO",
+        "regiao": "Centro-Oeste",
+        "nulos": 82589
+      },
+      {
+        "ranking": 13,
+        "uf": "PA",
+        "regiao": "Norte",
+        "nulos": 68473
+      },
+      {
+        "ranking": 14,
+        "uf": "RN",
+        "regiao": "Nordeste",
+        "nulos": 57189
+      },
+      {
+        "ranking": 15,
+        "uf": "ES",
+        "regiao": "Sudeste",
+        "nulos": 55218
+      },
+      {
+        "ranking": 16,
+        "uf": "AL",
+        "regiao": "Nordeste",
+        "nulos": 52962
+      },
+      {
+        "ranking": 17,
+        "uf": "PI",
+        "regiao": "Nordeste",
+        "nulos": 51782
+      },
+      {
+        "ranking": 18,
+        "uf": "SE",
+        "regiao": "Nordeste",
+        "nulos": 46068
+      },
+      {
+        "ranking": 19,
+        "uf": "AM",
+        "regiao": "Norte",
+        "nulos": 37525
+      },
+      {
+        "ranking": 20,
+        "uf": "DF",
+        "regiao": "Centro-Oeste",
+        "nulos": 32163
+      },
+      {
+        "ranking": 21,
+        "uf": "MT",
+        "regiao": "Centro-Oeste",
+        "nulos": 30612
+      },
+      {
+        "ranking": 22,
+        "uf": "MS",
+        "regiao": "Centro-Oeste",
+        "nulos": 30509
+      },
+      {
+        "ranking": 23,
+        "uf": "TO",
+        "regiao": "Norte",
+        "nulos": 22862
+      },
+      {
+        "ranking": 24,
+        "uf": "RO",
+        "regiao": "Norte",
+        "nulos": 14242
+      },
+      {
+        "ranking": 25,
+        "uf": "AC",
+        "regiao": "Norte",
+        "nulos": 10322
+      },
+      {
+        "ranking": 26,
+        "uf": "AP",
+        "regiao": "Norte",
+        "nulos": 7392
+      },
+      {
+        "ranking": 27,
+        "uf": "RR",
+        "regiao": "Norte",
+        "nulos": 4780
+      }
+    ],
+    "2022_turno_2_abstencao": [
+      {
+        "ranking": 1,
+        "uf": "AC",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 28.4136
+      },
+      {
+        "ranking": 2,
+        "uf": "AP",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 27.1659
+      },
+      {
+        "ranking": 3,
+        "uf": "RO",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 24.6839
+      },
+      {
+        "ranking": 4,
+        "uf": "MA",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 23.5053
+      },
+      {
+        "ranking": 5,
+        "uf": "AL",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 23.2532
+      },
+      {
+        "ranking": 6,
+        "uf": "PA",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 22.6542
+      },
+      {
+        "ranking": 7,
+        "uf": "MT",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 22.5349
+      },
+      {
+        "ranking": 8,
+        "uf": "MS",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 22.3536
+      },
+      {
+        "ranking": 9,
+        "uf": "RJ",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 22.2438
+      },
+      {
+        "ranking": 10,
+        "uf": "RR",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 21.9212
+      },
+      {
+        "ranking": 11,
+        "uf": "AM",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 21.879
+      },
+      {
+        "ranking": 12,
+        "uf": "SP",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 21.0593
+      },
+      {
+        "ranking": 13,
+        "uf": "MG",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 20.9912
+      },
+      {
+        "ranking": 14,
+        "uf": "GO",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 20.7421
+      },
+      {
+        "ranking": 15,
+        "uf": "ES",
+        "regiao": "Sudeste",
+        "taxa_abstencao_pct": 20.5319
+      },
+      {
+        "ranking": 16,
+        "uf": "BA",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 20.4845
+      },
+      {
+        "ranking": 17,
+        "uf": "TO",
+        "regiao": "Norte",
+        "taxa_abstencao_pct": 20.3841
+      },
+      {
+        "ranking": 18,
+        "uf": "RS",
+        "regiao": "Sul",
+        "taxa_abstencao_pct": 19.3119
+      },
+      {
+        "ranking": 19,
+        "uf": "SE",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 18.8946
+      },
+      {
+        "ranking": 20,
+        "uf": "PI",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 18.7422
+      },
+      {
+        "ranking": 21,
+        "uf": "PR",
+        "regiao": "Sul",
+        "taxa_abstencao_pct": 18.6331
+      },
+      {
+        "ranking": 22,
+        "uf": "RN",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 17.4421
+      },
+      {
+        "ranking": 23,
+        "uf": "SC",
+        "regiao": "Sul",
+        "taxa_abstencao_pct": 17.4226
+      },
+      {
+        "ranking": 24,
+        "uf": "PE",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 17.3106
+      },
+      {
+        "ranking": 25,
+        "uf": "CE",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 17.1423
+      },
+      {
+        "ranking": 26,
+        "uf": "PB",
+        "regiao": "Nordeste",
+        "taxa_abstencao_pct": 16.7384
+      },
+      {
+        "ranking": 27,
+        "uf": "DF",
+        "regiao": "Centro-Oeste",
+        "taxa_abstencao_pct": 16.7209
+      }
+    ],
+    "2022_turno_2_brancos": [
+      {
+        "ranking": 1,
+        "uf": "SP",
+        "regiao": "Sudeste",
+        "brancos": 526677
+      },
+      {
+        "ranking": 2,
+        "uf": "MG",
+        "regiao": "Sudeste",
+        "brancos": 183206
+      },
+      {
+        "ranking": 3,
+        "uf": "RJ",
+        "regiao": "Sudeste",
+        "brancos": 126645
+      },
+      {
+        "ranking": 4,
+        "uf": "RS",
+        "regiao": "Sul",
+        "brancos": 122456
+      },
+      {
+        "ranking": 5,
+        "uf": "BA",
+        "regiao": "Nordeste",
+        "brancos": 121221
+      },
+      {
+        "ranking": 6,
+        "uf": "PR",
+        "regiao": "Sul",
+        "brancos": 95555
+      },
+      {
+        "ranking": 7,
+        "uf": "PE",
+        "regiao": "Nordeste",
+        "brancos": 74435
+      },
+      {
+        "ranking": 8,
+        "uf": "CE",
+        "regiao": "Nordeste",
+        "brancos": 67045
+      },
+      {
+        "ranking": 9,
+        "uf": "SC",
+        "regiao": "Sul",
+        "brancos": 56475
+      },
+      {
+        "ranking": 10,
+        "uf": "GO",
+        "regiao": "Centro-Oeste",
+        "brancos": 43610
+      },
+      {
+        "ranking": 11,
+        "uf": "PA",
+        "regiao": "Norte",
+        "brancos": 43602
+      },
+      {
+        "ranking": 12,
+        "uf": "ES",
+        "regiao": "Sudeste",
+        "brancos": 37214
+      },
+      {
+        "ranking": 13,
+        "uf": "MA",
+        "regiao": "Nordeste",
+        "brancos": 35807
+      },
+      {
+        "ranking": 14,
+        "uf": "PB",
+        "regiao": "Nordeste",
+        "brancos": 35467
+      },
+      {
+        "ranking": 15,
+        "uf": "DF",
+        "regiao": "Centro-Oeste",
+        "brancos": 29663
+      },
+      {
+        "ranking": 16,
+        "uf": "AL",
+        "regiao": "Nordeste",
+        "brancos": 23376
+      },
+      {
+        "ranking": 17,
+        "uf": "AM",
+        "regiao": "Norte",
+        "brancos": 21594
+      },
+      {
+        "ranking": 18,
+        "uf": "RN",
+        "regiao": "Nordeste",
+        "brancos": 20585
+      },
+      {
+        "ranking": 19,
+        "uf": "PI",
+        "regiao": "Nordeste",
+        "brancos": 19027
+      },
+      {
+        "ranking": 20,
+        "uf": "SE",
+        "regiao": "Nordeste",
+        "brancos": 18240
+      },
+      {
+        "ranking": 21,
+        "uf": "MS",
+        "regiao": "Centro-Oeste",
+        "brancos": 18062
+      },
+      {
+        "ranking": 22,
+        "uf": "MT",
+        "regiao": "Centro-Oeste",
+        "brancos": 16317
+      },
+      {
+        "ranking": 23,
+        "uf": "RO",
+        "regiao": "Norte",
+        "brancos": 9428
+      },
+      {
+        "ranking": 24,
+        "uf": "TO",
+        "regiao": "Norte",
+        "brancos": 7158
+      },
+      {
+        "ranking": 25,
+        "uf": "AC",
+        "regiao": "Norte",
+        "brancos": 4722
+      },
+      {
+        "ranking": 26,
+        "uf": "AP",
+        "regiao": "Norte",
+        "brancos": 4018
+      },
+      {
+        "ranking": 27,
+        "uf": "RR",
+        "regiao": "Norte",
+        "brancos": 2173
+      }
+    ],
+    "2022_turno_2_nulos": [
+      {
+        "ranking": 1,
+        "uf": "SP",
+        "regiao": "Sudeste",
+        "nulos": 1117345
+      },
+      {
+        "ranking": 2,
+        "uf": "BA",
+        "regiao": "Nordeste",
+        "nulos": 395664
+      },
+      {
+        "ranking": 3,
+        "uf": "MG",
+        "regiao": "Sudeste",
+        "nulos": 350808
+      },
+      {
+        "ranking": 4,
+        "uf": "RJ",
+        "regiao": "Sudeste",
+        "nulos": 287066
+      },
+      {
+        "ranking": 5,
+        "uf": "PE",
+        "regiao": "Nordeste",
+        "nulos": 286535
+      },
+      {
+        "ranking": 6,
+        "uf": "RS",
+        "regiao": "Sul",
+        "nulos": 183360
+      },
+      {
+        "ranking": 7,
+        "uf": "CE",
+        "regiao": "Nordeste",
+        "nulos": 139985
+      },
+      {
+        "ranking": 8,
+        "uf": "PR",
+        "regiao": "Sul",
+        "nulos": 138917
+      },
+      {
+        "ranking": 9,
+        "uf": "PB",
+        "regiao": "Nordeste",
+        "nulos": 134293
+      },
+      {
+        "ranking": 10,
+        "uf": "AL",
+        "regiao": "Nordeste",
+        "nulos": 96954
+      },
+      {
+        "ranking": 11,
+        "uf": "SC",
+        "regiao": "Sul",
+        "nulos": 86794
+      },
+      {
+        "ranking": 12,
+        "uf": "GO",
+        "regiao": "Centro-Oeste",
+        "nulos": 81585
+      },
+      {
+        "ranking": 13,
+        "uf": "AM",
+        "regiao": "Norte",
+        "nulos": 79549
+      },
+      {
+        "ranking": 14,
+        "uf": "ES",
+        "regiao": "Sudeste",
+        "nulos": 76143
+      },
+      {
+        "ranking": 15,
+        "uf": "PA",
+        "regiao": "Norte",
+        "nulos": 75159
+      },
+      {
+        "ranking": 16,
+        "uf": "MA",
+        "regiao": "Nordeste",
+        "nulos": 67823
+      },
+      {
+        "ranking": 17,
+        "uf": "SE",
+        "regiao": "Nordeste",
+        "nulos": 53190
+      },
+      {
+        "ranking": 18,
+        "uf": "MS",
+        "regiao": "Centro-Oeste",
+        "nulos": 51658
+      },
+      {
+        "ranking": 19,
+        "uf": "PI",
+        "regiao": "Nordeste",
+        "nulos": 51055
+      },
+      {
+        "ranking": 20,
+        "uf": "RN",
+        "regiao": "Nordeste",
+        "nulos": 50048
+      },
+      {
+        "ranking": 21,
+        "uf": "DF",
+        "regiao": "Centro-Oeste",
+        "nulos": 38203
+      },
+      {
+        "ranking": 22,
+        "uf": "MT",
+        "regiao": "Centro-Oeste",
+        "nulos": 27398
+      },
+      {
+        "ranking": 23,
+        "uf": "RO",
+        "regiao": "Norte",
+        "nulos": 20949
+      },
+      {
+        "ranking": 24,
+        "uf": "TO",
+        "regiao": "Norte",
+        "nulos": 17833
+      },
+      {
+        "ranking": 25,
+        "uf": "AC",
+        "regiao": "Norte",
+        "nulos": 6722
+      },
+      {
+        "ranking": 26,
+        "uf": "AP",
+        "regiao": "Norte",
+        "nulos": 6200
+      },
+      {
+        "ranking": 27,
+        "uf": "RR",
+        "regiao": "Norte",
+        "nulos": 3450
+      }
+    ]
+  },
+  "estados_margem_inferior_3_pct": [
+    {
+      "uf": "AP",
+      "regiao": "Norte",
+      "ano": 2018,
+      "margem_pct": 0.4014,
+      "margem_media_historica_pct": 1.5618,
+      "candidato_vencedor": 17,
+      "votos_vencedor": 185096,
+      "candidato_segundo": 13,
+      "votos_segundo": 183616
+    },
+    {
+      "uf": "MG",
+      "regiao": "Sudeste",
+      "ano": 2022,
+      "margem_pct": 0.4026,
+      "margem_media_historica_pct": 8.3914,
+      "candidato_vencedor": 13,
+      "votos_vencedor": 6190960,
+      "candidato_segundo": 22,
+      "votos_segundo": 6141310
+    },
+    {
+      "uf": "AM",
+      "regiao": "Norte",
+      "ano": 2018,
+      "margem_pct": 0.5426,
+      "margem_media_historica_pct": 1.3708,
+      "candidato_vencedor": 17,
+      "votos_vencedor": 885401,
+      "candidato_segundo": 13,
+      "votos_segundo": 875845
+    },
+    {
+      "uf": "TO",
+      "regiao": "Norte",
+      "ano": 2018,
+      "margem_pct": 2.0472,
+      "margem_media_historica_pct": 2.3789,
+      "candidato_vencedor": 13,
+      "votos_vencedor": 371593,
+      "candidato_segundo": 17,
+      "votos_segundo": 356684
+    },
+    {
+      "uf": "AM",
+      "regiao": "Norte",
+      "ano": 2022,
+      "margem_pct": 2.1991,
+      "margem_media_historica_pct": 1.3708,
+      "candidato_vencedor": 13,
+      "votos_vencedor": 1004991,
+      "candidato_segundo": 22,
+      "votos_segundo": 961741
+    },
+    {
+      "uf": "TO",
+      "regiao": "Norte",
+      "ano": 2022,
+      "margem_pct": 2.7107,
+      "margem_media_historica_pct": 2.3789,
+      "candidato_vencedor": 13,
+      "votos_vencedor": 434593,
+      "candidato_segundo": 22,
+      "votos_segundo": 411654
+    },
+    {
+      "uf": "AP",
+      "regiao": "Norte",
+      "ano": 2022,
+      "margem_pct": 2.7221,
+      "margem_media_historica_pct": 1.5618,
+      "candidato_vencedor": 22,
+      "votos_vencedor": 200547,
+      "candidato_segundo": 13,
+      "votos_segundo": 189918
+    }
+  ]
+}

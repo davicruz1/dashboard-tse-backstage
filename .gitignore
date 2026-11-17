@@ -1,0 +1,28 @@
+# JavaScript / Vite
+node_modules/
+**/node_modules/
+dashboard/dist/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs, temporários e arquivos locais de inspeção
+*.log
+*.tmp
+inspecao.txt
+env.txt
+check_env.py
+~$*
+
+# Bases brutas de entrada; os JSONs processados permanecem versionados.
+dadoss/*.csv
+*.docx
+/Matriz Requisitos KPIs TSE - Reformulada.docx (1).pdf
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
