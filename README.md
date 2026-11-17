@@ -21,10 +21,9 @@ Preencha a tabela com os integrantes e revise os papéis antes da entrega:
 
 | Integrante | RA | Função / contribuição |
 |---|---|---|
-| `[Nome do integrante 1]` | `[RA]` | `[Ex.: ETL e qualidade dos dados]` |
-| `[Nome do integrante 2]` | `[RA]` | `[Ex.: modelagem relacional e T-SQL]` |
-| `[Nome do integrante 3]` | `[RA]` | `[Ex.: Power BI e análise de negócio]` |
-| `[Nome do integrante 4]` | `[RA]` | `[Ex.: dashboard React e UX]` |
+| `Davi Cruz Ramos` | `2501447` | `Power BI e criação de dashboard` |
+| `João Lucas Miguel` | ` 2501656` | `Scrum master` |
+| `Sergio Bueno` | `2501252` | `Modelagem relacional e T-SQL` |
 
 ## 1. O projeto em linguagem simples
 
